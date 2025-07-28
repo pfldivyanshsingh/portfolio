@@ -1,0 +1,230 @@
+
+header{
+    text-align: center;
+    height: 130px;
+    width: 200px;
+    color: black;
+    background-color: cornsilk;
+    border: 5px solid blue;
+    border-radius: 50px;
+    padding:10px 10px 10px 10px;
+    margin: auto;
+}
+hr{
+    color: cornsilk;
+}
+
+
+img{
+    border-radius: 50%;
+    border: 50%;
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+body{
+      background: linear-gradient(155deg, #252b3b 0%, #381a25 50%, #d38643 100%);
+  background-attachment: fixed;
+  color: #FAF9F6; /* Soft Ivory for default text */
+}
+
+.projfuture {
+  margin-bottom: 40px;
+  background-color:  rgba(250, 249, 246, 0.85);
+    padding: 20px;
+    text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #001219; /* Rich Black */
+
+  
+}
+
+
+
+.project-section {
+  max-width: 800px;
+  background-color: cornsilk; /* Soft Ivory background */
+  margin: 40px auto;
+  width:200px;
+  padding: 20px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #2E3A59; /* Midnight Navy */
+  text-align: center;
+
+  
+}
+
+
+
+
+/* footer style */
+
+
+
+
+.index-footer {
+
+  color: #FAF9F6; /* Soft Ivory */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.indfoot-division {
+  height: 4px;
+  background-color: #F4A259; /* Amber Gold divider */
+  margin-bottom: 20px;
+  border-radius: 2px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black;
+  margin: 0;
+  font-weight: bolder;
+}
+
+#footer span {
+  color: #D96690; /* Dusty Rose */
+  font-weight: 600;
+}
+
+#footer p:hover span {
+  color: #70A9A1; /* Muted Teal on hover */
+  transition: color 0.3s ease;
+}
+
+#footerdivyanshsingh{
+  text-decoration: none;
+  color: blue;
+}
+
+#igfooterdivyansh{
+  text-decoration: none;
+}
+#footer{
+    width: 300px;
+    border: 10px double red;
+    padding: 8px 8px 8px 8px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    margin:auto;
+}
+
+
+/* navigation styling */
+
+
+.main-nav-section {
+  max-width: 800px;
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: #2E3A59; /* Midnight Navy */
+  font-family: 'Poppins', sans-serif;
+  margin: 40px auto;
+}
+
+.main-nav-section h2 {
+  font-size: 2rem;
+  color: #CA6702; /* Alloy Orange */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-nav-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.main-nav-section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.main-nav-section a {
+  text-decoration: underline;
+  color: #2E3A59; /* Midnight Navy */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.main-nav-section a:hover,
+.main-nav-section a:focus {
+  color: #F4A259; /* Amber Gold */
+  outline: none;
+}
+
+#navigationindex-li1{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+
+#navigationindex-li2{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+#navigationindex-li3{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+
+
+#navigationindex-li4{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 5px 2px 20px 5px;
+}
+
+
+
+.main-nav-section{
+  text-align: center;
+}
+
+#navulindex{
+  padding: 0px 30px 0px 30px;
+  width:150px;
+  margin:auto;
+}
+
+#indexnavh4{
+  background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:10px 3px 10px 3px;
+  border-radius: 20px;
+
+}
+

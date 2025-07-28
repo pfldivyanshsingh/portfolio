@@ -1,0 +1,336 @@
+
+/* Basics css design of website */
+
+
+header{
+    text-align: center;
+    height: 130px;
+    width: 200px;
+    color: black;
+    background-color: cornsilk;
+    border: 5px solid blue;
+    border-radius: 50px;
+    padding:10px 10px 10px 10px;
+    margin: auto;
+}
+hr{
+    color: cornsilk;
+}
+body{
+      background: linear-gradient(155deg, #252b3b 0%, #381a25 50%, #d38643 100%);
+  background-attachment: fixed;
+  color: #FAF9F6; /* Soft Ivory for default text */
+}
+img{
+    border-radius: 50%;
+    border: 50%;
+    
+}
+h2{
+    color: #2f4f4f;
+}
+
+#linkedinhomeindex{
+  text-decoration: none;
+  color: black;
+}
+
+
+#conlinkedin{
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: #0077B5;
+    color: white;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#contact{
+    line-height: 2;
+}
+#footer{
+    width: 300px;
+    border: 10px double red;
+    padding: 8px 8px 8px 8px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    margin:auto;
+}
+#indlinknew{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* Intro section starts from here */
+
+.intro-section {
+  /* background-color: #E9D8A6; Vanilla */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-devision {
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory with 85% opacity */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #001219; /* Rich Black */
+}
+
+#intro{
+  background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:10px 3px 10px 3px;
+  border-radius: 20px;
+}
+
+.intro-devision h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #005F73; /* Midnight Green */
+  margin-bottom: 10px;
+}
+
+.intro-devision h3 span {
+  color: #EE9B00; /* Gamboge */
+}
+
+.intro-devision h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #CA6702; /* Alloy Orange */
+  margin-bottom: 20px;
+}
+
+.intro-devision p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #001219; /* Rich Black */
+}
+
+
+/* Education section starts from here */
+
+.Education {
+  /* background-color: #E9D8A6; Vanilla */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.education-division {
+  max-width: 800px;
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory with 85% opacity */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: #001219;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education-division hr {
+  border: none;
+  height: 3px;
+  background-color: #EE9B00; /* Gamboge */
+  margin-bottom: 20px;
+  width: 60px;
+}
+
+.education-division h2 {
+  font-size: 2rem;
+  color: #CA6702; /* Alloy Orange */
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+#Education{
+  background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:6px 2px 6px 2px;
+  border-radius: 20px;
+}
+
+.education-division ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.education-division li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #001219; /* Rich Black */
+}
+
+.education-division u {
+  color: #BB3E03; /* Rust */
+  font-weight: 500;
+}
+
+.education-division i {
+  color: #0A9396; /* Dark Cyan */
+}
+
+
+
+/* Footer design goes here */
+
+
+
+.index-footer {
+
+  color: #FAF9F6; /* Soft Ivory */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.indfoot-division {
+  height: 4px;
+  background-color: #F4A259; /* Amber Gold divider */
+  margin-bottom: 20px;
+  border-radius: 2px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black;
+  font-weight: bolder;
+  margin: 0;
+}
+
+#footer span {
+  color: #D96690; /* Dusty Rose */
+  font-weight: 600;
+}
+
+#footer p:hover span {
+  color: #70A9A1; /* Muted Teal on hover */
+  transition: color 0.3s ease;
+}
+
+#footerdivyanshsingh{
+  text-decoration: none;
+  color: blue;
+}
+
+#igfooterdivyansh{
+  text-decoration: none;
+}
+
+
+
+/* navigation styling */
+
+
+
+.main-nav-section {
+  max-width: 800px;
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: #2E3A59; /* Midnight Navy */
+  font-family: 'Poppins', sans-serif;
+  margin: 40px auto;
+}
+
+.main-nav-section h2 {
+  font-size: 2rem;
+  color: #CA6702; /* Alloy Orange */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-nav-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.main-nav-section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.main-nav-section a {
+  text-decoration: underline;
+  color: #2E3A59; /* Midnight Navy */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.main-nav-section a:hover,
+.main-nav-section a:focus {
+  color: #F4A259; /* Amber Gold */
+  outline: none;
+}
+
+#navigationindex-li1{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+
+#navigationindex-li2{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+#navigationindex-li3{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 2px 2px 2px 5px;
+}
+
+#navigationindex-li4{
+    border:5px solid blue;
+    background-color: #E8FF51;
+    border-radius: 10px;
+    width:120px;
+    height:25px;
+    padding: 5px 2px 20px 5px;
+}
+
+.main-nav-section{
+  text-align: center;
+}
+
+#navulindex{
+  padding: 0px 30px 0px 30px;
+  width:150px;
+  margin:auto;
+}
+
+#indexnavh4{
+  background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:10px 3px 10px 3px;
+  border-radius: 20px;
+
+}
+
