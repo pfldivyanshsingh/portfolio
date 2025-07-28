@@ -63,6 +63,48 @@ h1{
 
 
 
+.newsletterredirect{
+  /* background-color: #E9D8A6; Vanilla */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+    max-width: 300px;
+  text-align: center;
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory with 85% opacity */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #001219; /* Rich Black */
+    padding:8px 3px 8px 3px;
+  margin: 40px auto;
+}
+.newsletterredirect h2{
+    background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:10px 3px 10px 3px;
+  border-radius: 20px;
+}
+
+.newsletterredirect button{
+    background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background-attachment: fixed;
+  color: #FAF9F6;
+  padding:6px 2px 6px 2px;
+  border-radius: 20px;
+
+
+
+}
+
+.newsletterredirect a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 
 
 
