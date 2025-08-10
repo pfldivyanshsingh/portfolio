@@ -1,8 +1,8 @@
 
 body{
-      background: linear-gradient(155deg, #252b3b 0%, #381a25 50%, #d38643 100%);
-  background-attachment: fixed;
-  color: #FAF9F6; /* Soft Ivory for default text */
+background: linear-gradient(155deg, #252b3b 0%, #dae2f8 50%, #d6a4a4 100%);
+    background-attachment: fixed;
+    color: #FAF9F6;
 }
 
 #skillshead{
@@ -234,4 +234,5 @@ body{
   border-radius: 20px;
 
 }
+
 
