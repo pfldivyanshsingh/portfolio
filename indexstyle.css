@@ -17,8 +17,8 @@ hr{
     color: cornsilk;
 }
 body{
-
-background: linear-gradient(130deg, rgba(19, 19, 26, 1) 0%,#dae2f8  64%, #d6a4a4  81%, #dae2f8 82%, #dae2f8 92%, #d6a4a4 100%)
+      background: linear-gradient(155deg, #252b3b 0%, #dae2f8 50%, #d6a4a4 100%);
+  background-attachment: fixed;
   color: #FAF9F6; /* Soft Ivory for default text */
 }
 img{
@@ -375,6 +375,7 @@ h1{
   border-radius: 20px;
 
 }
+
 
 
 
