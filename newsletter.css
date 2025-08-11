@@ -1,6 +1,6 @@
 
 body{
-      background: linear-gradient(155deg, #252b3b 0%, #381a25 50%, #d38643 100%);
+  background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg);
   background-attachment: fixed;
   color: #FAF9F6; /* Soft Ivory for default text */
 }
@@ -107,7 +107,7 @@ button a{
 #footer p {
   font-size: 1rem;
   line-height: 1.6;
-  color: black;
+  color: yellow;
   margin: 0;
   font-weight: bolder;
 }
@@ -124,11 +124,13 @@ button a{
 
 #footerdivyanshsingh{
   text-decoration: none;
-  color: blue;
+  color: red;
 }
 
 #igfooterdivyansh{
   text-decoration: none;
+    color: red;
+
 }
 #footer{
     width: 300px;
@@ -186,7 +188,7 @@ button a{
 
 #navigationindex-li1{
     border:5px solid blue;
-    background-color: #E8FF51;
+    background-color: beige;
     border-radius: 10px;
     width:120px;
     height:25px;
@@ -195,7 +197,7 @@ button a{
 
 #navigationindex-li2{
     border:5px solid blue;
-    background-color: #E8FF51;
+    background-color: beige;
     border-radius: 10px;
     width:120px;
     height:25px;
@@ -203,7 +205,7 @@ button a{
 }
 #navigationindex-li3{
     border:5px solid blue;
-    background-color: #E8FF51;
+    background-color: beige;
     border-radius: 10px;
     width:120px;
     height:25px;
@@ -213,7 +215,7 @@ button a{
 
 #navigationindex-li4{
     border:5px solid blue;
-    background-color: #E8FF51;
+    background-color: beige;
     border-radius: 10px;
     width:120px;
     height:25px;
