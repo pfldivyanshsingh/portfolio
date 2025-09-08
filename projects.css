@@ -239,6 +239,12 @@ body{
     opacity: 2;
 
 }
+.sidebar_menu .social_media a{
+    color: black;
+    opacity: 2;
+    text-decoration: none;
+
+}
 #check{
     display: none;
 }
