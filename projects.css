@@ -702,4 +702,7 @@ body{
   .social-media-for-topbar{
     opacity: 0;
   }  
+  .contents-of-top-bar .ach-for-topbar{
+    opacity: 0;
+  }
 }
