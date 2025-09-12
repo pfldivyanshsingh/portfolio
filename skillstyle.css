@@ -1,3 +1,8 @@
+  *{
+    margin-top: 0;
+    padding: 0;
+      font-family: "Poppins", sans-serif;
+}
 
 body{
   background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg);
@@ -26,27 +31,41 @@ body{
 
 .skills-section h3 {
   font-size: 1.6rem;
-  color: #D96690; /* Dusty Rose */
+  color: black; /* Dusty Rose */
   margin-bottom: 15px;
 
   text-align: center;
-  background: linear-gradient(135deg, #2E3A59 0%, #D96690 50%, #F4A259 100%);
+  background: antiquewhite;
   background-attachment: fixed;
-  color: #FAF9F6;
+  color: green;
   padding:10px 3px 10px 3px;
   border-radius: 20px;
+  
 }
 
 .technical-skills,
 .professional-skills {
   margin-bottom: 40px;
-  background-color:  rgba(250, 249, 246, 0.85);
+  background-color: antiquewhite;
     padding: 40px;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   color: #001219; /* Rich Black */
+  width: 400px;
+  height: 400px;
+
+
 
   
+}
+
+.skillmaster{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+
 }
 
 .skills-section ul {
@@ -68,7 +87,9 @@ body{
 
 .skills-section h2{
 
-  text-decoration: underline double red ;
+  border: 2px solid blue;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 
@@ -140,20 +161,198 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_one i{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position: fixed;
+    left: 16px;
+    top: -7px;
+    line-height: 60px;
+    transition: all 0.4s linear;    
+}
+.sidebar_menu{
+    position: fixed;
+    left: -350px;
+    height: 100vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    transition: all 0.4s linear;
+    z-index: 10;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0 2px 4px white;
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+.sidebar_menu .btn_two i{
+    color: gray;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    left: 270px;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.sidebar_menu .menu i{
+
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 8px
+
+}
+.sidebar_menu .menu li{
+    line-height: 30px;
+    padding: 10px 20px;
+    margin-top: 6px;
+
+}
+.sidebar_menu .menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .social_media {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+}
+.sidebar_menu .social_media i{
+    color: black;
+    opacity: 2;
+
+}
+.sidebar_menu .social_media a{
+    color: black;
+    opacity: 2;
+    text-decoration: none;
+
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 5px white;
+
+}
+/* .btn_one i:hover{
+    font-size: 30px;
+} */
+.btn_two i:hover{
+    font-size: 22px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+#check:checked ~.sidebar_menu .btn_two i{
+    opacity: 1;
+}
+
+
+.top-bar-of-page{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+    height: 45px;
+    margin-left: -9px;
+}
+
+.contents-of-top-bar a{
+  text-decoration: none;
+  margin-left: 3rem;
+  position: relative;
+  top: 10px;
+  color: red;
+  z-index: 5;
+  
+  flex-wrap: wrap-reverse;
+}
+.contents-of-top-bar{
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .main-nav-section {
   max-width: 800px;
-  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory background */
+  background-color: rgba(250, 249, 246, 0.85); /* Soft Ivory background 
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  color: #2E3A59; /* Midnight Navy */
+  color: #2E3A59; /* Midnight Navy 
   font-family: 'Poppins', sans-serif;
   margin: 40px auto;
 }
 
 .main-nav-section h2 {
   font-size: 2rem;
-  color: #CA6702; /* Alloy Orange */
+  color: #CA6702; /* Alloy Orange 
   margin-bottom: 20px;
   text-align: center;
 }
@@ -170,14 +369,14 @@ body{
 
 .main-nav-section a {
   text-decoration: underline;
-  color: #2E3A59; /* Midnight Navy */
+  color: #2E3A59; /* Midnight Navy 
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .main-nav-section a:hover,
 .main-nav-section a:focus {
-  color: #F4A259; /* Amber Gold */
+  color: #F4A259; /* Amber Gold 
   outline: none;
 }
 
@@ -236,4 +435,107 @@ body{
 
 }
 
+ */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* Responsive design for smaller screens */
+@media (max-width: 576px) {
+    .technical-skills {
+        padding: 2rem;
+        margin: auto;
+    }
+
+    .project-link-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-link {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    .designer-flex-for-githubsection{
+      display: block;
+        justify-content: center; /* Centers horizontally */
+  align-items: center; 
+    }
+
+
+
+}
+
+@media (max-width: 794px) {
+      .skillmaster{
+        display: block;
+        margin: auto;
+        flex-direction: row;
+        max-width: fit-content;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; 
+    }
+  
+}
+
+
+
+@media (max-width: 502px) {
+    .technical-skills{
+      background-color: transparent;
+      border: 2px solid white;
+      width: fit-content;
+    }
+    .technical-skills strong{
+      color: antiquewhite;
+    }
+    .technical-skills li{
+      color: aliceblue;
+    }
+    .skills-section h3{
+      background: black;
+    }
+    .professional-skills{
+      background-color: transparent;
+      border: 2px solid white;
+      width: fit-content;
+    }
+    .professional-skills strong{
+      color: antiquewhite;
+    }
+    .professional-skills li{
+      color: aliceblue;
+    }
+    #skillshead{
+      background:antiquewhite;
+      color: black;
+      text-decoration: none;
+    }
+
+
+
+
+
+}
+@media (max-width:1200px) {
+  .social-media-for-topbar{
+    opacity: 0;
+  }  
+  .contents-of-top-bar .ach-for-topbar{
+    opacity: 0;
+  }
+}
