@@ -446,7 +446,20 @@ border-radius: 50%;
   }
 }
 
+@media (max-width:420px) {
+  .fa-envelope-circle-check{
+    opacity: 0;
+    position: relative;
+    top: 2px;
 
+  }
+
+  .contact-container .mailsection{
+    color: aliceblue;
+    font-weight: 700;
+  }
+
+}
 
 
 
