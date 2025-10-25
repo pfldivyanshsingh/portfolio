@@ -302,7 +302,7 @@ body{
 
 
 .top-bar-of-page{
-    background-color: black;
+    background-color: aliceblue;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -496,29 +496,31 @@ body{
 
 @media (max-width: 502px) {
     .technical-skills{
-      background-color: transparent;
+      background-color: antiquewhite;
       border: 2px solid white;
       width: fit-content;
+      
     }
     .technical-skills strong{
-      color: antiquewhite;
+      color: brown;
     }
     .technical-skills li{
-      color: aliceblue;
+      color: black;
     }
     .skills-section h3{
-      background: black;
+      background: orange;
+      color: brown;
     }
     .professional-skills{
-      background-color: transparent;
+      background-color: antiquewhite;
       border: 2px solid white;
       width: fit-content;
     }
     .professional-skills strong{
-      color: antiquewhite;
+      color: brown;
     }
     .professional-skills li{
-      color: aliceblue;
+      color: black;
     }
     #skillshead{
       background:antiquewhite;
@@ -539,3 +541,5 @@ body{
     opacity: 0;
   }
 }
+
+
