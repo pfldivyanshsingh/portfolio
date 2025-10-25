@@ -656,7 +656,7 @@ section h2 {
     background-color: white;
     box-shadow: 0 0 5px white;
     transition: all 0.4s linear;
-    z-index: 10;
+    z-index: 12;
 }
 .sidebar_menu .logo{
     position: absolute;
@@ -970,3 +970,4 @@ section h2 {
     background: #222;
     border-radius: 12px;
   }
+
