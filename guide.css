@@ -60,7 +60,8 @@ body{
 }
 .container .card .card1 img{
     height: 200px;
-    width: 200px;
+    width: fit-content;
+    /* border-radius */
 }
 
 .container .card .card1 a{
@@ -128,4 +129,5 @@ hr{
 }
 .footerdetails{
     line-height: 30px;
+
 }
