@@ -1,7 +1,8 @@
 
 body{
     /* background-color:grey; */
-  background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg);
+  /* background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg); */
+  background-color: #000000;
   background-attachment: fixed;
   color: #FAF9F6; /* Soft Ivory for default text */
 }
@@ -22,7 +23,9 @@ body{
     .student-info {
       width: 300px;
       height: 400px;
-      background: antiquewhite;
+      /* background: antiquewhite;
+       */
+       background: #023047;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -30,18 +33,19 @@ body{
       border-right: 1px solid #ddd;
     }
     .student-info .subdesc{
-        color: #EE9B00;
+        color: #fca311;
         text-align: center;
     }
 
     .student-description h3{
   font-size: 2.3rem;
   font-weight: 700;
-  color: #005F73; /* Midnight Green */
+  color: white; /* Midnight Green */
   margin-bottom: 10px;
 }
 .student-description span{
     color: #EE9B00;
+
 }
 
 
@@ -56,7 +60,8 @@ body{
     .student-info h3 {
       margin: 0;
       font-size: 20px;
-      color: #333;
+      /* color: #333; */
+      color: white;
     }
 
     .student-info p {
@@ -68,7 +73,8 @@ body{
     .student-description {
       flex: 1;
       height: 400px;
-      background-image: linear-gradient(90deg, gray, white,antiquewhite);
+      /* background-image: linear-gradient(90deg, gray, white,antiquewhite); */
+      background-image: linear-gradient(90deg, #14213d);
       padding: 30px;
       display: flex;
       flex-direction: column;
@@ -83,7 +89,8 @@ body{
 
     .student-description p {
       font-size: 16px;
-      color: #111;
+      /* color: #111; */
+      color: white;
       line-height: 1.6;
     }
 
@@ -95,7 +102,10 @@ body{
 
     .education-section {
       width: 800px;
-      background-color: aliceblue;
+      /* background-color: aliceblue; */
+      /* background-color: rgb(41, 38, 38);
+       */
+       background: #000;
       border-radius: 12px;
       padding: 30px;
       /* margin-right: 20px; */
@@ -105,7 +115,8 @@ body{
 
     .education-section h2 {
       font-size: 26px;
-      color: #222;
+      /* color: #222; */
+      color: white;
       margin-bottom: 20px;
       border-left: 5px solid red;
       padding-left: 10px;
@@ -113,6 +124,7 @@ body{
 
     .edu-card {
       background: #fff;
+      /* background: skyblue; */
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 15px;
@@ -148,7 +160,10 @@ body{
       height: 500px;
       /* background: #8A2BE2;
       background-color: #4b0082; */
-      background-image: linear-gradient(130deg, #007bff, #000);
+      /* background-image: linear-gradient(130deg, #007bff, #000);
+       */
+       /* background-image: linear-gradient(90deg, black); */
+       background: #14213d;
       border-radius: 12px;
        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
       padding: 20px;
@@ -199,7 +214,9 @@ body{
 /* 💻 Skills Section */
 .skills-section {
   background: #f1f7ff;
-background-image: linear-gradient(130deg, #fff, gray);
+/* background-image: linear-gradient(130deg, #fff, gray); */
+/* background: linear-gradient(90deg,black); */
+background-color: #023047;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -209,10 +226,10 @@ background-image: linear-gradient(130deg, #fff, gray);
   text-align: center;
 }
 
-.skills-section h2 {
+.skills-section h2 {  
   font-size: 28px;
   font-weight: 600;
-  color: #111;
+  color: white;
   border-left: 5px solid #007bff;
   padding-left: 12px;
   display: inline-block;
@@ -238,7 +255,7 @@ background-image: linear-gradient(130deg, #fff, gray);
   transition: all 0.3s ease;
   width: 140px;
   cursor: pointer;
-  opacity: 0; /* hidden by default for fade-in animation */
+  /* opacity: 0; hidden by default for fade-in animation */
   transform: translateY(30px);
 }
 
@@ -296,46 +313,50 @@ background-image: linear-gradient(130deg, #fff, gray);
 /* Shared Section Styles */
 section {
 /* background-image: linear-gradient(90deg, gray, gray, black); */
-      background-image: linear-gradient(90deg, gray, white,gray);
+      /* background-image: linear-gradient(90deg, gray, white,gray); */
+      background-color: #14213d;
   border-radius: 20px;
   padding: 40px;
   margin: 40px auto;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   max-width: 1100px;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: white;
+  z-index: -1;
 }
 
 section h2 {
   font-size: 28px;
   font-weight: 600;
-  color: black;
+  color: #fca311;
   border-left: 5px solid red;
   padding-left: 12px;
   margin-bottom: 25px;
 }
 
 /* 🚀 Projects */
-.projects-grid {
+.project-grid {
   display: flex;
-
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-
 }
 
 .project-card {
-      background-image: linear-gradient(90deg, #007bff, #000);
-  border-radius: 14px;
-  width: 300px;
-
+      /* background-image: linear-gradient(90deg, #007bff, #000); */
+  background-color: #e5e5e5;
+  width: 260px;
   padding: 20px;
-  backdrop-filter: blur(8px);
+  border-radius: 14px;
+  text-align: center;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: wheat;
+  transition: transform 0.3s ease;
+  /* color: antiquewhite; */
+  color: #000;
+    border: 5px solid white; 
+    justify-self: center;
 
+    
 }
 
 .project-card:hover {
@@ -348,11 +369,12 @@ section h2 {
   border-radius: 10px;
   margin-bottom: 15px;
   height: 200px;
+  border: 3px solid #e5e5e5;
 }
 
 .project-links a {
   text-decoration: none;
-  color:antiquewhite;
+  color:darkblue;
   font-weight: 500;
   margin-right: 10px;
 }
@@ -370,14 +392,17 @@ section h2 {
 }
 
 .cert-card {
-      background-image: linear-gradient(90deg, #007bff, #000);
+      /* background-image: linear-gradient(90deg, #007bff, #000); */
+  background-color: #e5e5e5;
   width: 260px;
   padding: 20px;
   border-radius: 14px;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
-  color: antiquewhite;
+  /* color: antiquewhite; */
+  color: #000;
+    border: 5px solid white; 
 }
 
 .cert-card:hover {
@@ -388,6 +413,7 @@ section h2 {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  border: 3px solid #e5e5e5;
 }
 
 /* 📝 Blogs */
@@ -399,13 +425,16 @@ section h2 {
 }
 
 .blog-card {
-      background-image: linear-gradient(90deg, #007bff, #000);
+      /* background-image: linear-gradient(90deg, #007bff, #000); */
+      background-color: #e5e5e5;
   width: 300px;
   padding: 20px;
   border-radius: 14px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
-  color: #fff;
+  /* color: #fff; */
+    color: #000;
+    border: 5px solid white; 
 }
 
 .blog-card:hover {
@@ -414,7 +443,7 @@ section h2 {
 
 .blog-card a {
   text-decoration: none;
-  color: #00d4ff;
+  color: #EE9B00;
   font-weight: 500;
 }
 
@@ -427,13 +456,16 @@ section h2 {
 }
 
 .extra-card {
-      background-image: linear-gradient(90deg, #007bff, #000);
+      /* background-image: linear-gradient(90deg, #007bff, #000); */
+  background-color: #e5e5e5;
   width: 300px;
   padding: 20px;
   border-radius: 14px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
+  border: 5px solid white; 
 }
 
 .extra-card:hover {
@@ -445,7 +477,8 @@ section h2 {
 
 .contact-section {
       /* background-image: linear-gradient(170deg, darkblue, black,darkblue); */
-      background-image: linear-gradient(90deg, gray, gray, black);
+      /* background-image: linear-gradient(90deg, gray, gray, black); */
+      background-color: black;
 
   border-radius: 20px;
   padding: 40px;
@@ -453,13 +486,13 @@ section h2 {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   max-width: 1100px;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: white;
 }
 
 .contact-section h2 {
   font-size: 28px;
   font-weight: 600;
-  color: black;
+  color: white;
   border-left: 5px solid red;
   padding-left: 12px;
   margin-bottom: 25px;
@@ -483,7 +516,8 @@ section h2 {
   gap: 15px;
 }
 .contact-info a{
-    color: blanchedalmond;
+    /* color: blanchedalmond; */
+    color: white;
     text-decoration: none;
 }
 .contact-form input,
@@ -504,7 +538,7 @@ section h2 {
 
 .contact-form button {
   background: #00d4ff;
-  color: #000;
+  color: white;
   border: none;
   padding: 12px;
   border-radius: 8px;
@@ -525,7 +559,7 @@ section h2 {
 }
 
 .social-links a {
-  color: black;
+  color: white;
   font-size: 24px;
   margin-right: 15px;
   transition: color 0.3s;
@@ -656,7 +690,7 @@ section h2 {
     background-color: white;
     box-shadow: 0 0 5px white;
     transition: all 0.4s linear;
-    z-index: 12;
+    z-index: 2;
 }
 .sidebar_menu .logo{
     position: absolute;
@@ -771,7 +805,7 @@ section h2 {
   position: relative;
   top: 13px;
   color: red;
-  z-index: 10;
+  z-index: 1;
   font-size: large;
   font-weight: 500;
   flex-wrap: wrap-reverse;
@@ -970,4 +1004,3 @@ section h2 {
     background: #222;
     border-radius: 12px;
   }
-
