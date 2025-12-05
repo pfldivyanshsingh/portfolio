@@ -911,7 +911,7 @@ section h2 {
 .mobile-cert-card,
 .mobile-blog-card,
 .mobile-extra-card {
-    background: linear-gradient(130deg, white, white);
+    background: linear-gradient(130deg, #023047, #023047);
     color: black;
         padding: 15px;
     border-radius: 12px;
@@ -983,7 +983,8 @@ section h2 {
   .mobile-edu-card,
   .mobile-skill-card,
   .mobile-project-card {
-    background: linear-gradient(130deg, beige, antiquewhite);
+    background: linear-gradient(130deg, #14213d, #14213d);
+    color: white;
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 15px;
