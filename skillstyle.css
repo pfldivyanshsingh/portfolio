@@ -5,7 +5,8 @@
 }
 
 body{
-  background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg);
+  /* background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg); */
+ background: black;
     background-attachment: fixed;
     color: #FAF9F6;
 }
@@ -541,5 +542,6 @@ body{
     opacity: 0;
   }
 }
+
 
 
