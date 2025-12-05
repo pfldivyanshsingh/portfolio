@@ -912,7 +912,7 @@ section h2 {
 .mobile-blog-card,
 .mobile-extra-card {
     background: linear-gradient(130deg, #023047, #023047);
-    color: black;
+    color: white;
         padding: 15px;
     border-radius: 12px;
     margin-bottom: 15px;
@@ -1009,3 +1009,4 @@ section h2 {
     background: #222;
     border-radius: 12px;
   }
+
