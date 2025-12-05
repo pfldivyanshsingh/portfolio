@@ -838,8 +838,9 @@ section h2 {
 #mobile-ui {
     font-family: 'Poppins', sans-serif;
     padding: 15px;
-    background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg);
-    background-attachment: fixed;
+    /* background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg); */
+    background-color: black;
+    /* background-attachment: fixed; */
     color: white;
 }
 
@@ -861,10 +862,11 @@ section h2 {
 /* Student Card */
 .mobile-student-card {
     text-align: center;
-    background: linear-gradient(130deg, beige, antiquewhite);
+    /* background: linear-gradient(130deg, beige, antiquewhite); */
+    background-color: #023047;
     padding: 15px;
     border-radius: 12px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
 }
 .mobile-student-card img {
@@ -879,7 +881,8 @@ section h2 {
     margin-bottom: 20px;
 }
 .mobile-edu-card {
-    background: linear-gradient(130deg, #fff, #ccc);
+    background: linear-gradient(130deg, white, white);
+    /* background-color: white; */
     border-radius: 12px;
     padding: 10px;
     margin-bottom: 10px;
@@ -895,7 +898,8 @@ section h2 {
     margin-bottom: 20px;
 }
 .mobile-skill-card {
-    background: linear-gradient(130deg, beige, antiquewhite);
+    background: linear-gradient(130deg, white white);
+    background-color: white;
     color: black;
     padding: 10px 15px;
     border-radius: 10px;
@@ -907,7 +911,7 @@ section h2 {
 .mobile-cert-card,
 .mobile-blog-card,
 .mobile-extra-card {
-    background: linear-gradient(130deg, beige, antiquewhite);
+    background: linear-gradient(130deg, white, white);
     color: black;
         padding: 15px;
     border-radius: 12px;
