@@ -1,7 +1,7 @@
 
 body{
     /* background-color:grey; */
-  /* background-image: url(https://i.ibb.co/whz0MD4Z/gaspar-zaldo-Gz-Hl2-BGcvmo-unsplash.jpg); */
+  /* background-image: url(https://i.ibb.co/vxYmmmBg/bcgtry1.png); */
   background-color: #000000;
   background-attachment: fixed;
   color: #FAF9F6; /* Soft Ivory for default text */
@@ -26,6 +26,7 @@ body{
       /* background: antiquewhite;
        */
        background: #023047;
+       /* background: transparent; */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -55,6 +56,7 @@ body{
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 15px;
+        filter: drop-shadow(2px 2px 40px yellow);
     }
 
     .student-info h3 {
@@ -181,6 +183,7 @@ body{
   padding-left: 30px;
   position: relative;
   align-content:end;
+  /* filter: drop-shadow(1px 1px 20px red); */
 }
 
 .education-image img {
@@ -190,6 +193,7 @@ body{
   object-fit: cover;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  filter: drop-shadow(1px 1px 20px Green);
 }
 
 .education-image img:hover {
@@ -874,6 +878,7 @@ section h2 {
     height: 120px;
     border-radius: 50%;
     margin-bottom: 10px;
+    filter: drop-shadow(2px 2px 40px yellow);
 }
 
 /* Education */
@@ -1009,4 +1014,3 @@ section h2 {
     background: #222;
     border-radius: 12px;
   }
-
