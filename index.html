@@ -22,140 +22,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="home.js"></script>
 
-    <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const skillCards = document.querySelectorAll('.fade-in');
-
-  // If nothing found, bail early (helps debugging)
-  if (!skillCards.length) {
-    console.warn('No elements with .fade-in found.');
-    return;
-  }
-
-  // If browser supports IntersectionObserver
-  if ('IntersectionObserver' in window) {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px 0px -50px 0px', // trigger a little before fully in view
-      threshold: 0.12 // 12% visible triggers the animation
-    };
-
-    const observer = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-          obs.unobserve(entry.target); // stop observing once shown
-        }
-      });
-    }, observerOptions);
-
-    skillCards.forEach(card => observer.observe(card));
-  } else {
-    // Fallback for very old browsers: just reveal immediately
-    skillCards.forEach(card => card.classList.add('show'));
-  }
-});
-</script>
-
+   
 </head>
 <body>
 
     <div id="desktop-ui">
 
-            <div class="top-bar-of-page">
-                <!-- <input type="checkbox" id="check" />
-                    <div class="btn_one" style="display: flex;">
-                        <label for="check">
-                        <i class="fa-solid fa-bars" style="color: goldenrod;"></i>
-                        </label>
-                    </div>
-
-                    <div class="sidebar_menu">
-                        <div class="logo">
-                        <a href="/index.html">Divyansh Singh</a>
-                        </div>
-
-                        <div class="btn_two">
-                        <label for="check">
-                            <i class="fa-solid fa-xmark"></i>
-                        </label>
-                        </div>
-
-                        <div class="menu">
-                        <ul>
-                            <li>
-                            <i class="fa-solid fa-house"></i>   
-                            <a href="/index.html">Home Page</a>
-                            </li>
-                            <li>
-                            <i class="fa-solid fa-lightbulb"></i>
-                            <a href="/skills.html">Skills</a>
-                            </li>
-                            <li>
-                            <i class="fa-solid fa-star"></i>
-                            <a href="/projects.html">Projects</a>
-                            </li>
-                            <li>
-                            <i class="fa-solid fa-address-card"></i>
-                            <a href="/contact.html">Contact Options</a>
-                            </li>
-                            <li>
-                            <i class="fa-solid fa-clipboard-question"></i>
-                            <a href="https://forms.gle/NRPyW9jXgHhtMdTV8">Ask your Doubt</a>
-                            </li>
-                            
-                            <li>
-                            <i class="fa-regular fa-comments"></i>
-                            <a href="https://forms.gle/RF4bCVbMDjh3k9fG7">Feedback</a>
-                            </li>
-                        </ul>
-                        </div>
-
-                        <div class="social_media">
-                        <ul>
-                            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
-                            <a href="https://www.linkedin.com/in/pfldivyanshsingh"><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;Linkedin</a><br>
-                            <a href="https://www.instagram.com/pfldivyanshsingh"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram</a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
-
-                        </ul>
-                        </div>
-                    </div> -->
-                    <div class="contents-of-top-bar">
-                        <a href="/index.html">Home</a>
-                        <a href="/skills.html">Skills</a>
-                        <a href="/contact.html">Contact</a>
-                        <a href="/projects.html" class="ach-for-topbar">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span class="social-media-for-topbar">
-                        <a href="https://www.linkedin.com/in/pfldivyanshsingh"><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;Linkedin</a>
-                        <a href="https://github.com/pfldivyanshsingh/"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>
-                        </span>
-                    </div>
-                </div>
-
-            <br><br><br>
-
-
-
-
-
-
-
-
-
+  <header class="navbar">
+    <h2>Divyansh Singh</h2>
+    <nav>
+      <a href="index.html/student-card">About</a>
+      <a href="index.html/education-section">Education</a>
+      <a href="#https://sdivyansh.vercel.app/skills.html">Skills</a>
+      <a href="https://sdivyansh.vercel.app/projects.html">Projects</a>
+      <a class="resumeee" href="#resume" style="background-color: orange; padding:8px; border-radius: 20px;">Resume</a>
+      <a href="index.html/contact-section" style="background-color: whitesmoke;color: black; padding:8px; border-radius: 20px;">Contact</a>
+    </nav>
+  </header>
                 <div class="main">
+                  <br>
                     <div class="student-card">
                         <!-- Left Section -->
                         <div class="student-info">
                         <img src="https://i.ibb.co/VYnWLzPJ/IMG-20250324-WA0000.jpg" alt="Student Image">
                         <h3>Divyansh Singh</h3>
                         <!-- <marquee style="color: red;"Upcoming Events:-</marquee> -->
-                        <p class="subdesc"> Web Developer • CSE UnderGrad '29<br><marquee style="color:#ffffff"> Coding and Creating </marquee></p>
+                        <h5 class="subdesc"> Web Developer • CSE UnderGrad '29<br><marquee style="color:#000"> Coding and Creating </marquee></h5>
                         </div>
 
                         <!-- Right Section -->
@@ -191,8 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                                 <div class="edu-card">
                                 <h3>B.Tech in Computer Science & Engineering</h3>
-                                <p><span>Currently Pursuing</span> from Lovely Professional University (LPU)</p><br>
-                                    <P>CGPA: <span>8.61</span></P>
+                                <p><span>Currently Pursuing</span> from Lovely Professional University (LPU)</p>
+                                <p>CGPA: <span>8.61</span></p>
                                 </div>
 
                                 <div class="edu-card">
@@ -207,8 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
 
                                 
-                            </div>
-                            <div class="education-image">
+                            </div> -->
+                             <div class="education-image">
                             <img  src="/imagesrcs/devCard.png" alt="Education Image" style="height: fit-content;width: 270px;">
                             </div>
                         </div>
@@ -221,11 +113,21 @@ document.addEventListener('DOMContentLoaded', () => {
             <h2>💻 Skills / Tech Stack</h2>
 
             <div class="skills-grid">
-                <div class="skill-card fade-in" style="background-color: white;"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
-                <div class="skill-card fade-in"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
-                <div class="skill-card fade-in"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-                <div class="skill-card fade-in"><i class="fa-brands fa-python"></i><span>Python</span></div>
-                <div class="skill-card fade-in"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                <div class="edu-card">
+                  <h3>Tech Skills</h3>
+                  <p>Programming Languages: <span>Python, C/C++, DB, JavaScript, HTML/CSS</span></p>
+                  <p>Full Stack Engineering: <span>Postman API, BootStrap</span></p>
+                  <p>Developer Tools: <span>Git, Google Cloud Platform, VS Code, Vercel</span></p>
+                </div>
+                <div class="edu-card">
+                  <h3>Non Tech Skills</h3>
+                  <ul>
+                    <li style="color: black;">
+                      <p><span>Problem Solving</span></p>
+                    </li>
+                  </ul>
+                  
+                </div>
             </div>
             </div>
 
@@ -298,23 +200,23 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
 
             <!-- 🎤 Extracurricular / Events -->
-            <section class="extra-section">
+            <!-- <section class="extra-section">
             <h2>🎤 Extracurricular / Events</h2>
             <div class="extra-grid">
                 <div class="extra-card">
                 <h4>Group Hosting Event</h4>
                 <p>Hosted multiple technical event  at college</p>
                 </div>
-                <!-- <div class="extra-card">
+                 <div class="extra-card">
                 <h4>Hackathon Participation</h4>
                 <p>Participated in college hackathons, focusing on building a solution for a problem</p>
                 </div> -->
-                <div class="extra-card">
+                <!-- <div class="extra-card">
                 <h4>One India 2025</h4>
                 <p>Participated in college event One India 2025 LPU and won #rd Prize in the event</p>
-                </div>
-            </div>
-            </section>
+                </div> -->
+            <!-- </div>
+            </section> -->
 
             <!-- 📞 Contact Section -->
             <div class="contact-section">
@@ -403,7 +305,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="mobile-edu-card">
       <h4>B.Tech in CSE</h4>
       <p >Lovely Professional University <p style="color: rgb(255, 0, 0);">(Currently Pursuing)</p></p>
-        <p>CGPA: <b style="color: red;">8.61</b></p>
     </div>
     <div class="mobile-edu-card">
       <h4>Class XII - PCM</h4>
@@ -501,10 +402,8 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 
 </div>
+  <script src="script.js"></script>
 
 
 </body>
-
 </html>
-
-

@@ -25,7 +25,7 @@ body{
       height: 400px;
       /* background: antiquewhite;
        */
-       background: #023047;
+       background-color: #e5e5e5;
        /* background: transparent; */
       display: flex;
       flex-direction: column;
@@ -41,7 +41,7 @@ body{
     .student-description h3{
   font-size: 2.3rem;
   font-weight: 700;
-  color: white; /* Midnight Green */
+  color: #000; /* Midnight Green */
   margin-bottom: 10px;
 }
 .student-description span{
@@ -64,7 +64,7 @@ body{
       margin: 0;
       font-size: 20px;
       /* color: #333; */
-      color: white;
+      color: black;
     }
 
     .student-info p {
@@ -77,7 +77,7 @@ body{
       flex: 1;
       height: 400px;
       /* background-image: linear-gradient(90deg, gray, white,antiquewhite); */
-      background-image: linear-gradient(90deg, #14213d);
+      background-image: linear-gradient(90deg, #fff);
       padding: 30px;
       display: flex;
       flex-direction: column;
@@ -86,14 +86,14 @@ body{
 
     .student-description h4 {
       font-size: 22px;
-      color: #222;
+      color: black;
       margin-bottom: 10px;
     }
 
     .student-description p {
       font-size: 16px;
       /* color: #111; */
-      color: white;
+      color: black;
       line-height: 1.6;
     }
 
@@ -108,7 +108,7 @@ body{
       /* background-color: aliceblue; */
       /* background-color: rgb(41, 38, 38);
        */
-       background: #000;
+       background: #0a0a0a;
       border-radius: 12px;
       padding: 30px;
       /* margin-right: 20px; */
@@ -153,7 +153,7 @@ body{
     }
 
     .edu-card span {
-      color: #ff0000;
+      color: #fca311;
       font-weight: 500;
     }
 .edufit {
@@ -166,7 +166,7 @@ body{
       /* background-image: linear-gradient(130deg, #007bff, #000);
        */
        /* background-image: linear-gradient(90deg, black); */
-       background: #14213d;
+       background: #000;
       border-radius: 12px;
        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
       padding: 20px;
@@ -221,7 +221,7 @@ body{
   background: #f1f7ff;
 /* background-image: linear-gradient(130deg, #fff, gray); */
 /* background: linear-gradient(90deg,black); */
-background-color: #023047;
+background-color: #1e1a1a;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -243,8 +243,11 @@ background-color: #023047;
 
 .skills-grid {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
+  align-content: start;
+  text-align: left;
   gap: 20px;
 }
 
@@ -319,7 +322,7 @@ background-color: #023047;
 section {
 /* background-image: linear-gradient(90deg, gray, gray, black); */
       /* background-image: linear-gradient(90deg, gray, white,gray); */
-      background-color: #14213d;
+      background-color: #121111;
   border-radius: 20px;
   padding: 40px;
   margin: 40px auto;
@@ -853,8 +856,32 @@ section h2 {
 }
 
 
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(15,15,15,0.9);
+  backdrop-filter: blur(10px);
+  padding: 16px 32px;
+  height: 18px;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
 
+.navbar nav a {
+  margin-left: 18px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
 
+.navbar h2{
+  position: relative;
+  top: -30px;
+  color: #EE9B00;
+}
 
 
 /* Hide mobile UI by default */
