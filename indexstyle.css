@@ -915,7 +915,7 @@ section h2 {
 .mobile-topbar nav a {
     margin: 5px;
     text-decoration: none;
-    color: red;
+    color: #EE9B00;
     font-weight: 600;
 }
 
@@ -923,10 +923,10 @@ section h2 {
 .mobile-student-card {
     text-align: center;
     /* background: linear-gradient(130deg, beige, antiquewhite); */
-    background-color: #023047;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 12px;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 .mobile-student-card img {
@@ -936,14 +936,16 @@ section h2 {
     margin-bottom: 10px;
     filter: drop-shadow(2px 2px 40px white);
 }
-
+.mobile-student-card span{
+  color: red;
+}
 /* Education */
 .mobile-education {
     margin-bottom: 20px;
 }
 .mobile-edu-card {
-    background: linear-gradient(130deg, white, white);
-    /* background-color: white; */
+    /* background: linear-gradient(130deg, white, white); */
+    background-color: white;
     border-radius: 12px;
     padding: 10px;
     margin-bottom: 10px;
@@ -972,8 +974,10 @@ section h2 {
 .mobile-cert-card,
 .mobile-blog-card,
 .mobile-extra-card {
-    background: linear-gradient(130deg, #023047, #023047);
-    color: white;
+    /* background: linear-gradient(130deg, #023047, #023047);
+     */
+    background-color: white;
+    color: black;
         padding: 15px;
     border-radius: 12px;
     margin-bottom: 15px;
@@ -1044,8 +1048,8 @@ section h2 {
   .mobile-edu-card,
   .mobile-skill-card,
   .mobile-project-card {
-    background: linear-gradient(130deg, #14213d, #14213d);
-    color: white;
+    background-color: linear-gradient(130deg, #14213d, #14213d);
+    color: black;
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 15px;
