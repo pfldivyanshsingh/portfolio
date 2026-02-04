@@ -17,6 +17,9 @@ sections.forEach(section => {
 });
 
 let resume = document.querySelectorAll(".resumeee");
-resume.forEach(addEventListener('click',()=>{
-  alert("Resume will be available shortly.")
-}),this);
+resume.forEach(function(el){
+  el.addEventListener('click',()=>{
+    alert("Resume will be available shortly");
+    console.log("Resume: Currently not available");
+  })
+});
