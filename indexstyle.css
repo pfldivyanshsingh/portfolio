@@ -279,11 +279,11 @@ background-color: #1e1a1a;
 }
 
 
-.skill-card:nth-child(1) i { color: #e34f26; }  /* HTML - orange */
+/* .skill-card:nth-child(1) i { color: #e34f26; }  /* HTML - orange */
 .skill-card:nth-child(2) i { color: #2965f1; }  /* CSS - blue */
 .skill-card:nth-child(3) i { color: #f7df1e; }  /* JavaScript - yellow */
 .skill-card:nth-child(4) i { color: #3776ab; }  /* Python - blue */
-.skill-card:nth-child(5) i { color: #6f42c1; }  /* C++ - purple */
+.skill-card:nth-child(5) i { color: #6f42c1; }  
 
 
 .skill-card span {
@@ -361,8 +361,8 @@ section h2 {
   transition: transform 0.3s ease;
   /* color: antiquewhite; */
   color: #000;
-    border: 5px solid white; 
-    justify-self: center;
+  border: 5px solid white; 
+  justify-self: center;
 
     
 }
