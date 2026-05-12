@@ -7,7 +7,7 @@ This repository contains the source code for my personal portfolio website. It i
 
 ## ✨ Overview
 
-This portfolio is a multi-page web application built with HTML, CSS, and JavaScript. It is designed to be clean, modern, and easy to navigate for visitors. The website is responsive and optimized for both desktop and mobile viewing, providing a seamless user experience across all devices.
+This portfolio is a multi-page web application built with HTML, CSS, and JavaScript and using some external libraries. It is designed to be clean, modern, and easy to navigate for visitors. The website is responsive and optimized for both desktop and mobile viewing, providing a seamless user experience across all devices.
 
 The key sections include:
 - A comprehensive **Home** page with a personal introduction.
