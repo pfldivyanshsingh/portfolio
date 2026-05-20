@@ -194,7 +194,7 @@ body{
   object-fit: cover;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  filter: drop-shadow(1px 1px 20px Green);
+  /* filter: drop-shadow(1px 1px 20px Green); */
 }
 
 .education-image img:hover {
